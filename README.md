@@ -22,21 +22,13 @@ OpenRouter API
 Pandas / NumPy
 
 ## Architecture
-
 User Symptoms  
-↓  
-Embedding Model (MiniLM)  
-↓  
+Embedding Model (MiniLM)    
 Vector Search (FAISS)  
-↓  
 Retrieve Relevant Conditions  
-↓  
 LLM Reasoning  
-↓  
 Clinical Triage Recommendation
-
 ## Example Input
-
 Symptoms: fever cough fatigue breathing difficulty  
 Age: 65  
 Medical History: diabetes
@@ -63,8 +55,5 @@ This project demonstrates how AI systems can assist clinicians by analyzing symp
 - Risk prediction models
 - Deployment as an API
 - Streamlit healthcare dashboard
-
-## Author
-
 Ashok 
 AI / ML Engineer
